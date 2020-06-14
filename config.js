@@ -1,6 +1,6 @@
 const env = process.env
 
-const nodeEnv = env.NODE.ENV || 'development'
+const nodeEnv = env.NODE_ENV || 'development'
 
 const serverURL = {
   port: env.PORT || 7000,
