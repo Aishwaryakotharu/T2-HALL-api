@@ -29,7 +29,7 @@ server.use((error, req, res, next) => {
 })
 
 // Read port and host from the configuration file
-server.listen(config.port, config.host, error => {
+server.listen(config.port, error => {
   if (error) {
     console.error('Error starting', error)
   } else {
